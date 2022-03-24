@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8061/eureka
+spring:
+  application:
+    name: sensors-service
+  cloud:
+    discovery:
+      enabled: true
+server:
+  port: 8084
